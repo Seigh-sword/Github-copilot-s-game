@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Duck Pizza Catcher Challenge</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Duck Pizza Catcher</h1>
+    <canvas id="gameCanvas" width="480" height="640"></canvas>
+    <div id="score">Score: 0</div>
+    <div id="gameOver" style="display: none;">
+        <h2>Game Over!</h2>
+        <p id="finalScore"></p>
+        <button id="restartBtn">Restart</button>
+    </div>
+    <audio id="pizzaSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b9c8c82.mp3" preload="auto"></audio>
+    <audio id="cactusSound" src="https://cdn.pixabay.com/audio/2022/08/20/audio_12a7dd3bc6.mp3" preload="auto"></audio>
+    <audio id="bgm" src="https://cdn.pixabay.com/audio/2022/05/25/audio_12eabf7c7a.mp3" preload="auto" loop></audio>
+    <script src="game.js"></script>
+</body>
+</html>
